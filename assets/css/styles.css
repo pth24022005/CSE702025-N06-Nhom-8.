@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(../img/z6665456914815_b878b248c27246ae4e66f028510f7cab.jpg); /* THAY THẾ BẰNG ĐƯỜNG DẪN ẢNH NỀN CỦA BẠN */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-container {
+  background-color: rgba(30, 30, 50, 0.82);
+  border-radius: 30px;
+  box-shadow: 0 20px 55px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 460px;
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 2.8rem 3.2rem !important;
+  color: #f5f7fa;
+}
+
+.library-icon .bi-book-half {
+  font-size: 62px;
+  color: #c0d9ff;
+  margin-bottom: 1.2rem;
+}
+
+.page-title {
+  color: #ffffff;
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 2.2rem !important;
+}
+
+.input-label {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.7rem !important;
+  display: block;
+  text-align: left;
+  color: #e0eaff;
+}
+
+/* Div bao bọc input và icon, sử dụng cho position:relative */
+.input-wrapper {
+  position: relative;
+}
+
+.form-control-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  font-size: 1.05rem;
+  border-radius: 50px !important;
+  background-color: rgba(255, 255, 255, 0.07);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control-custom::placeholder {
+  color: #b0c0e0;
+}
+
+.form-control-custom:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(179, 217, 255, 0.8);
+  color: #ffffff;
+  box-shadow: 0 0 0 0.25rem rgba(179, 217, 255, 0.25);
+}
+
+.form-control-custom.password-input-field {
+  padding-right: 3.8rem; /* Đảm bảo đủ không gian cho icon */
+}
+
+.password-toggle-icon-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%; /* Chiếm toàn bộ chiều cao của .input-wrapper */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem; /* Padding cho container của icon */
+  cursor: pointer;
+  z-index: 102;
+}
+
+.password-toggle-icon-container i {
+  font-size: 1.3rem;
+  color: #cadcff;
+  transition: color 0.2s;
+  line-height: 1;
+}
+
+.password-toggle-icon-container i:hover {
+  color: #ffffff;
+}
+
+.error-message-display {
+  font-size: 0.9rem;
+  min-height: 1.7em;
+  text-align: left;
+  margin-top: 0.5rem;
+  color: #ffdad6;
+}
+
+.forgot-password-link {
+  font-size: 0.9rem;
+  color: #d1e3ff;
+  text-decoration: none;
+}
+
+.forgot-password-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.button-group-container {
+  border: 2px solid rgba(179, 217, 255, 0.25);
+  border-radius: 22px;
+  padding: 1.4rem;
+  margin-top: 2.2rem !important;
+}
+
+.btn-custom-lg {
+  padding: 0.95rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px !important;
+  transition: background-color 0.25s, transform 0.15s, box-shadow 0.2s;
+  border: none;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-custom-lg:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+.btn-custom-lg:active {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+.btn-custom-red {
+  background: linear-gradient(135deg, #ff6b6b, #ee4d4d);
+  color: white;
+}
+.btn-custom-red:hover {
+  background: linear-gradient(135deg, #f05252, #e63946);
+  color: white;
+}
+
+.btn-custom-green {
+  background: linear-gradient(135deg, #56ab2f, #a8e063);
+  color: white;
+}
+.btn-custom-green:hover {
+  background: linear-gradient(135deg, #4a9c2a, #97d157);
+  color: white;
+}
+
+.btn-outline-light-custom {
+  border: 2px solid rgba(224, 231, 255, 0.65) !important;
+  color: rgba(239, 243, 255, 0.9) !important;
+  background-color: transparent;
+  font-weight: 500;
+}
+.btn-outline-light-custom:hover {
+  background-color: rgba(224, 231, 255, 0.12) !important;
+  color: white !important;
+  border-color: rgba(224, 231, 255, 0.85) !important;
+}

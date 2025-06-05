@@ -1,0 +1,16 @@
+:root {
+  --color-primary: rgb(57, 133, 150);
+  --color-text: rgb(171, 167, 167);
+}
+
+body {
+  font-family: "Inria Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+desc {
+  color: var(--color-text);
+}
