@@ -15,8 +15,8 @@ trong việc quản lý sách và mượn trả.
 - Tìm kiếm thông tin
 - Thống kê
 ## Công nghệ sử dụng
-**Frontend**:HTML,CSS,JS
-**Backend**:Java
-**Cơ sở dữ liệu**:MySQL
+- **Frontend**:HTML,CSS,JS
+- **Backend**:Java
+- **Cơ sở dữ liệu**:MySQL
 ## Cài đặt và sử dụng
 
